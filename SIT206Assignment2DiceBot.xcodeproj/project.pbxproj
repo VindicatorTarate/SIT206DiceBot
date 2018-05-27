@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09180A6720A00EFA00E69270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09180A6620A00EFA00E69270 /* AppDelegate.swift */; };
+		09180A6E20A00EFA00E69270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09180A6C20A00EFA00E69270 /* Main.storyboard */; };
+		09180A7020A00EFB00E69270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09180A6F20A00EFB00E69270 /* Assets.xcassets */; };
+		09180A7320A00EFB00E69270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09180A7120A00EFB00E69270 /* LaunchScreen.storyboard */; };
+		0938DBE420A2C1CA0026C594 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938DBE320A2C1CA0026C594 /* DiceViewController.swift */; };
+		0938DBE620A2C9800026C594 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938DBE520A2C9800026C594 /* CharactersViewController.swift */; };
+		0938DBEA20A2C9AF0026C594 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938DBE920A2C9AF0026C594 /* AboutViewController.swift */; };
+		098711F120BA493600A6BDC0 /* MASS HEALING WORD.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711E920BA493400A6BDC0 /* MASS HEALING WORD.png */; };
+		098711F220BA493600A6BDC0 /* EXPEDITIOUS RETREAT.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711EA20BA493400A6BDC0 /* EXPEDITIOUS RETREAT.png */; };
+		098711F320BA493600A6BDC0 /* AID.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711EB20BA493400A6BDC0 /* AID.png */; };
+		098711F420BA493600A6BDC0 /* ACID SPLASH.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711EC20BA493500A6BDC0 /* ACID SPLASH.png */; };
+		098711F520BA493600A6BDC0 /* FALSE LIFE.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711ED20BA493500A6BDC0 /* FALSE LIFE.png */; };
+		098711F620BA493600A6BDC0 /* AURA OF LIFE.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711EE20BA493500A6BDC0 /* AURA OF LIFE.png */; };
+		098711F720BA493600A6BDC0 /* ANTILIFE SHELL.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711EF20BA493500A6BDC0 /* ANTILIFE SHELL.png */; };
+		098711F820BA493600A6BDC0 /* BARKSKIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 098711F020BA493500A6BDC0 /* BARKSKIN.png */; };
+		098711FA20BA4A6F00A6BDC0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098711F920BA4A6F00A6BDC0 /* ResultViewController.swift */; };
+		098711FC20BA77F600A6BDC0 /* Dice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 098711FB20BA77F500A6BDC0 /* Dice.jpg */; };
+		0987120020BA9C6700A6BDC0 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098711FF20BA9C6700A6BDC0 /* SkillViewController.swift */; };
+		0987120220BAB67500A6BDC0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987120120BAB67500A6BDC0 /* background.jpg */; };
+		09A2406720B6685E00292C5F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2406620B6685E00292C5F /* SearchTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09180A6320A00EFA00E69270 /* SIT206Assignment2DiceBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIT206Assignment2DiceBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09180A6620A00EFA00E69270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09180A6D20A00EFA00E69270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09180A6F20A00EFB00E69270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09180A7220A00EFB00E69270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09180A7420A00EFB00E69270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0938DBE320A2C1CA0026C594 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiceViewController.swift; path = ../DiceViewController.swift; sourceTree = "<group>"; };
+		0938DBE520A2C9800026C594 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		0938DBE920A2C9AF0026C594 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		098711E920BA493400A6BDC0 /* MASS HEALING WORD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MASS HEALING WORD.png"; sourceTree = "<group>"; };
+		098711EA20BA493400A6BDC0 /* EXPEDITIOUS RETREAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EXPEDITIOUS RETREAT.png"; sourceTree = "<group>"; };
+		098711EB20BA493400A6BDC0 /* AID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AID.png; sourceTree = "<group>"; };
+		098711EC20BA493500A6BDC0 /* ACID SPLASH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACID SPLASH.png"; sourceTree = "<group>"; };
+		098711ED20BA493500A6BDC0 /* FALSE LIFE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FALSE LIFE.png"; sourceTree = "<group>"; };
+		098711EE20BA493500A6BDC0 /* AURA OF LIFE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AURA OF LIFE.png"; sourceTree = "<group>"; };
+		098711EF20BA493500A6BDC0 /* ANTILIFE SHELL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANTILIFE SHELL.png"; sourceTree = "<group>"; };
+		098711F020BA493500A6BDC0 /* BARKSKIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BARKSKIN.png; sourceTree = "<group>"; };
+		098711F920BA4A6F00A6BDC0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		098711FB20BA77F500A6BDC0 /* Dice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dice.jpg; sourceTree = "<group>"; };
+		098711FF20BA9C6700A6BDC0 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		0987120120BAB67500A6BDC0 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		09A2406620B6685E00292C5F /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09180A6020A00EFA00E69270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09180A5A20A00EFA00E69270 = {
+			isa = PBXGroup;
+			children = (
+				09180A6520A00EFA00E69270 /* SIT206Assignment2DiceBot */,
+				09180A6420A00EFA00E69270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09180A6420A00EFA00E69270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09180A6320A00EFA00E69270 /* SIT206Assignment2DiceBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09180A6520A00EFA00E69270 /* SIT206Assignment2DiceBot */ = {
+			isa = PBXGroup;
+			children = (
+				09180A6620A00EFA00E69270 /* AppDelegate.swift */,
+				0938DBE320A2C1CA0026C594 /* DiceViewController.swift */,
+				09A2406620B6685E00292C5F /* SearchTableViewController.swift */,
+				0938DBE520A2C9800026C594 /* CharactersViewController.swift */,
+				0938DBE920A2C9AF0026C594 /* AboutViewController.swift */,
+				09180A6C20A00EFA00E69270 /* Main.storyboard */,
+				098711FF20BA9C6700A6BDC0 /* SkillViewController.swift */,
+				098711F920BA4A6F00A6BDC0 /* ResultViewController.swift */,
+				09180A6F20A00EFB00E69270 /* Assets.xcassets */,
+				09180A7120A00EFB00E69270 /* LaunchScreen.storyboard */,
+				09180A7420A00EFB00E69270 /* Info.plist */,
+				098711FB20BA77F500A6BDC0 /* Dice.jpg */,
+				098711EC20BA493500A6BDC0 /* ACID SPLASH.png */,
+				098711EB20BA493400A6BDC0 /* AID.png */,
+				098711EF20BA493500A6BDC0 /* ANTILIFE SHELL.png */,
+				098711EE20BA493500A6BDC0 /* AURA OF LIFE.png */,
+				098711F020BA493500A6BDC0 /* BARKSKIN.png */,
+				098711EA20BA493400A6BDC0 /* EXPEDITIOUS RETREAT.png */,
+				098711ED20BA493500A6BDC0 /* FALSE LIFE.png */,
+				098711E920BA493400A6BDC0 /* MASS HEALING WORD.png */,
+				0987120120BAB67500A6BDC0 /* background.jpg */,
+			);
+			path = SIT206Assignment2DiceBot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09180A6220A00EFA00E69270 /* SIT206Assignment2DiceBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09180A7720A00EFB00E69270 /* Build configuration list for PBXNativeTarget "SIT206Assignment2DiceBot" */;
+			buildPhases = (
+				09180A5F20A00EFA00E69270 /* Sources */,
+				09180A6020A00EFA00E69270 /* Frameworks */,
+				09180A6120A00EFA00E69270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIT206Assignment2DiceBot;
+			productName = SIT206Assignment2DiceBot;
+			productReference = 09180A6320A00EFA00E69270 /* SIT206Assignment2DiceBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09180A5B20A00EFA00E69270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Deakin;
+				TargetAttributes = {
+					09180A6220A00EFA00E69270 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 09180A5E20A00EFA00E69270 /* Build configuration list for PBXProject "SIT206Assignment2DiceBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09180A5A20A00EFA00E69270;
+			productRefGroup = 09180A6420A00EFA00E69270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09180A6220A00EFA00E69270 /* SIT206Assignment2DiceBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09180A6120A00EFA00E69270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098711F320BA493600A6BDC0 /* AID.png in Resources */,
+				0987120220BAB67500A6BDC0 /* background.jpg in Resources */,
+				098711F120BA493600A6BDC0 /* MASS HEALING WORD.png in Resources */,
+				09180A7320A00EFB00E69270 /* LaunchScreen.storyboard in Resources */,
+				098711F420BA493600A6BDC0 /* ACID SPLASH.png in Resources */,
+				098711F520BA493600A6BDC0 /* FALSE LIFE.png in Resources */,
+				098711F220BA493600A6BDC0 /* EXPEDITIOUS RETREAT.png in Resources */,
+				098711F620BA493600A6BDC0 /* AURA OF LIFE.png in Resources */,
+				09180A7020A00EFB00E69270 /* Assets.xcassets in Resources */,
+				098711FC20BA77F600A6BDC0 /* Dice.jpg in Resources */,
+				09180A6E20A00EFA00E69270 /* Main.storyboard in Resources */,
+				098711F820BA493600A6BDC0 /* BARKSKIN.png in Resources */,
+				098711F720BA493600A6BDC0 /* ANTILIFE SHELL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09180A5F20A00EFA00E69270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09180A6720A00EFA00E69270 /* AppDelegate.swift in Sources */,
+				0938DBE420A2C1CA0026C594 /* DiceViewController.swift in Sources */,
+				09A2406720B6685E00292C5F /* SearchTableViewController.swift in Sources */,
+				0938DBEA20A2C9AF0026C594 /* AboutViewController.swift in Sources */,
+				0938DBE620A2C9800026C594 /* CharactersViewController.swift in Sources */,
+				098711FA20BA4A6F00A6BDC0 /* ResultViewController.swift in Sources */,
+				0987120020BA9C6700A6BDC0 /* SkillViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09180A6C20A00EFA00E69270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09180A6D20A00EFA00E69270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09180A7120A00EFB00E69270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09180A7220A00EFB00E69270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09180A7520A00EFB00E69270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09180A7620A00EFB00E69270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09180A7820A00EFB00E69270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = SIT206Assignment2DiceBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.SIT206Assignment2DiceBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09180A7920A00EFB00E69270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = SIT206Assignment2DiceBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.SIT206Assignment2DiceBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09180A5E20A00EFA00E69270 /* Build configuration list for PBXProject "SIT206Assignment2DiceBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09180A7520A00EFB00E69270 /* Debug */,
+				09180A7620A00EFB00E69270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09180A7720A00EFB00E69270 /* Build configuration list for PBXNativeTarget "SIT206Assignment2DiceBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09180A7820A00EFB00E69270 /* Debug */,
+				09180A7920A00EFB00E69270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09180A5B20A00EFA00E69270 /* Project object */;
+}
