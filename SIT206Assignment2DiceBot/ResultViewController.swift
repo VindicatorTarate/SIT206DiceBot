@@ -9,8 +9,8 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    var results = [""]
-    var myIndex = 0
+   
+    var selectedResult = ""
     
     @IBOutlet weak var tittleLabel: UILabel!
     @IBOutlet weak var descImage: UIImageView!
@@ -20,8 +20,8 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tittleLabel.text = results[myIndex]
-        descImage.image = UIImage(named: results[myIndex] + ".png")
+        tittleLabel.text = selectedResult
+        descImage.image = UIImage(named: selectedResult + ".png")
     }
 
     override func didReceiveMemoryWarning() {

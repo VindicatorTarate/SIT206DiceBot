@@ -1,4 +1,4 @@
-//
+ //
 //  SearchTableViewController.swift
 //  SIT206Assignment2DiceBot
 //
@@ -18,7 +18,7 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
     var filteredResults = [String]()
     var searchController : UISearchController!
     var resultsController = UITableViewController()
-    
+    var selectedResult = ""
 
     override func viewDidLoad()
     {
@@ -29,6 +29,7 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
         
         self.searchController = UISearchController(searchResultsController: self.resultsController)
         self.tableView.tableHeaderView = self.searchController.searchBar
+        
         self.searchController.searchResultsUpdater = self
         self.searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
@@ -36,16 +37,17 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
     
     func updateSearchResults(for searchController: UISearchController)
     {
-        self.filteredResults = self.results.filter{ (result:String) -> Bool in
-            if result.lowercased().contains(self.searchController.searchBar.text!.lowercased())
-            {
-                return true
-            }
-            else
-            {
+        self.filteredResults = self.results.filter
+            { (result:String) -> Bool in
+                if result.lowercased().contains(self.searchController.searchBar.text!.lowercased())
+                {
+                    return true
+                }
+                else
+                {
                 return false
+                }
             }
-        }
         
         self.resultsController.tableView.reloadData()
         
@@ -75,20 +77,27 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
         {
             cell.textLabel?.text = self.filteredResults[indexPath.row]
         }
+        selectedResult = cellToTitle(cell: cell)
+        
         return cell
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        let dest = segue.destination as! ResultViewController
-        dest.results = results
-        dest.myIndex = myIndex
-        
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myIndex = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let dest = segue.destination as! ResultViewController
+        dest.selectedResult = selectedResult
+        
+    }
+    func cellToTitle(cell: UITableViewCell) -> String
+    {
+        let title = cell.textLabel?.text
+        
+        return title!
+    }
+    
 }

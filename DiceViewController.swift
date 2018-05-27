@@ -16,6 +16,8 @@ class DiceViewController: UIViewController
     var resultArray = [Int]()
     var sum = 0
     var history = ""
+    var alertTitle = "Alert!"
+    var alertText = ""
     
     @IBOutlet weak var result: UITextView!
     @IBOutlet weak var qut4: UITextField!
@@ -72,12 +74,16 @@ class DiceViewController: UIViewController
         if quantity >= 20
         {
             quantity = 20
-            //alert: you can roll up to 20 dices one time! rolling 20D(limit)
+            
+            alertText = "you can roll up to 20 dices one time! rolling 20 D" + String(limit)
+            alert (title: alertTitle, message: alertText)
         }
         else if quantity <= 0
         {
             quantity = 1
-            //alert: you need to roll at least 1 dice! rolling 1D(limit)
+            alertText = "you can roll at least 1 dice one time! rolling 1 D" + String(limit)
+            alert (title: alertTitle, message: alertText)
+
         }
         
         resultArray = generateRandomNum (limit, quantity)
@@ -105,6 +111,19 @@ class DiceViewController: UIViewController
             results.append(Int(Int(arc4random_uniform(UInt32(l))) + 1))
         }
         return results
+    }
+    
+    func alert(title:String, message:String)
+    {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:
+            {
+                (action) in alert.dismiss(animated: true, completion: nil)
+                
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
